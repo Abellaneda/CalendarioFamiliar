@@ -1,0 +1,14 @@
+{
+  "imports": {
+    "grammy": "npm:grammy@^1.35.0",
+    "@supabase/supabase-js": "npm:@supabase/supabase-js@^2.48.1"
+  },
+  "tasks": {
+    "check": "deno check index.ts",
+    "lint": "deno lint",
+    "test": "deno test --allow-env"
+  },
+  "lint": {
+    "rules": { "tags": ["recommended"] }
+  }
+}

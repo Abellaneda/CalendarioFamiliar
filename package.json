@@ -1,0 +1,28 @@
+{
+  "name": "botcalendariofamiliar",
+  "version": "1.0.0",
+  "description": "Asistente inteligente para la gestión de eventos familiares a través de Telegram y Google Calendar, potenciado por Google Gemini y Supabase.",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abellaneda/BotCalendarioFamiliar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "CC-BY-NC-SA-4.0",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Abellaneda/BotCalendarioFamiliar/issues"
+  },
+  "homepage": "https://github.com/Abellaneda/BotCalendarioFamiliar#readme",
+  "dependencies": {
+    "@google/genai": "^2.31.0",
+    "@supabase/supabase-js": "^2.118.0",
+    "dotenv": "^18.0.9",
+    "googleapis": "^188.0.0",
+    "grammy": "^1.46.0"
+  }
+}
